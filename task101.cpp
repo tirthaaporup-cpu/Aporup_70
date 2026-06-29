@@ -4,8 +4,8 @@
 int main() {
     sf::RenderWindow window(sf::VideoMode({600, 600}), "Task 101 - Centered Circle");
     
-    sf::CircleShape circle(50.f);
-    circle.setFillColor(sf::Color::Green);
+    sf::CircleShape circle(50.f); // radius
+    circle.setFillColor(sf::Color::Green); //cicle color
     circle.setOrigin({50.f, 50.f});
     circle.setPosition({300.f, 300.f});
 
@@ -15,7 +15,7 @@ int main() {
                 window.close();
         }
 
-        window.clear();
+        window.clear();// background color.
         window.draw(circle);
         window.display();
     }

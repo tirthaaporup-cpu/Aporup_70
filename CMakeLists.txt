@@ -15,3 +15,7 @@ target_link_libraries(task102 SFML::Graphics SFML::Window SFML::System)
 # Task 103 - The Bouncing Circle
 add_executable(task103 task103.cpp)
 target_link_libraries(task103 SFML::Graphics SFML::Window SFML::System)
+# Snake Game Configuration
+# Snake Game Configuration
+add_executable(snake snake.cpp)
+target_link_libraries(snake SFML::Graphics SFML::Window SFML::System)
