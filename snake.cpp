@@ -67,7 +67,7 @@ void renderGame(sf::RenderWindow& window, sf::Font& font);
 int main() {
     std::srand(static_cast<unsigned int>(std::time(nullptr)));
     sf::RenderWindow window(sf::VideoMode({WINDOW_WIDTH, WINDOW_HEIGHT}), "Snake Assignment Game");
-    window.setFramerateLimit(10); // Lower speed to make it playable
+    window.setFramerateLimit(6); // Lower speed to make it playable
     // Load default system font for Score/Game Over display
     sf::Font font;
     if (!font.openFromFile("/System/Library/Fonts/Supplemental/Arial.ttf")) {
